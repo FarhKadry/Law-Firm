@@ -2,5 +2,8 @@ nav{
     display: inline-flex;
 padding: 0 72px;
 align-items: center;
-gap: 54px;
+gap: 14px;
+justify-content: space-between;
+    width: 100%;
+    text-wrap: nowrap;
 }

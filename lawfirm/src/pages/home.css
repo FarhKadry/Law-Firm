@@ -26,10 +26,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: all 200ms ease-in-out;
 }
 body{
     background-color: var(--bg);
-    color: var(--accentText);
     font-family: "Red Hat Display";
 }
 header{
@@ -39,11 +39,20 @@ header{
     height: 80px;
     padding: 0 72px;
     align-items: center;
-    gap: 54px;
+    max-width:700px ;
     right: 0;
     top: 0;
     background-color: var(--accent);
+    position: fixed;
 }
 ul{
     list-style: none;
+}
+li{
+    list-style-type: none;
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
 }
