@@ -1,0 +1,34 @@
+:root{
+    --bg: #E9E6D5;
+    --accent:#B12825;
+    --accentText:#8E3635;
+    --bgText: #FFFFFF;
+}
+.nightmode{
+    --bg: #8E3635;
+    --accent:#E9E6D5;
+    --accentText:#FFFFFF;
+    --bgText: #B12825;
+}
+@font-face {
+    font-family:Zaslia ;
+    src: url(./../assets/fonts/zaslia.regular.otf);
+}
+@font-face {
+    font-family:Cinzel B ;
+    src: url(./../assets/fonts/Cinzel-Bold.otf);
+}
+@font-face {
+    font-family:Cinzel Regular ;
+    src: url(./../assets/fonts/Cinzel-Regular.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--bg);
+    color: var(--accentText);
+    font-family: "Red Hat Display";
+}
