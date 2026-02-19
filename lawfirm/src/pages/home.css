@@ -32,3 +32,18 @@ body{
     color: var(--accentText);
     font-family: "Red Hat Display";
 }
+header{
+    display: flex;
+    justify-content: space-between;
+    display: inline-flex;
+    height: 80px;
+    padding: 0 72px;
+    align-items: center;
+    gap: 54px;
+    right: 0;
+    top: 0;
+    background-color: var(--accent);
+}
+ul{
+    list-style: none;
+}
