@@ -7,6 +7,16 @@ const Home = () => {
     <header>
         <Navbar />
     </header>
+    <main>
+        <section>
+            <div className="secContainer">
+                <div className="hero">
+                    <h1>Fighting with justice
+— for justice</h1>
+                </div>
+            </div>
+        </section>
+    </main>
     </> );
 }
  

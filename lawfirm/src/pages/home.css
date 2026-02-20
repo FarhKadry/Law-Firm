@@ -37,9 +37,10 @@ header{
     justify-content: space-between;
     display: inline-flex;
     height: 80px;
-    padding: 0 72px;
+    padding: 0 82px;
     align-items: center;
-    max-width:700px ;
+    width: 100%;
+    max-width:600px ;
     right: 0;
     top: 0;
     background-color: var(--accent);
@@ -55,4 +56,31 @@ li{
 a{
     text-decoration: none;
     color: inherit;
+}
+
+.hero{
+    display: flex;
+    position: relative;
+}
+h1{
+    color: var(--accent);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--accent);
+    font-family: Zaslia;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    max-width: 379px;
+}
+main{
+    padding: 74px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.secContainer{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
 }
