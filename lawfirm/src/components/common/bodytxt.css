@@ -1,0 +1,7 @@
+p{
+    color: var(--accentText);
+    font-family: "Red Hat Display";
+    font-size: 24px;
+    font-weight: 400;
+    margin: 20px 0;
+}

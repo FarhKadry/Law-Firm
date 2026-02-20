@@ -11,6 +11,7 @@ import Navbar from '../components/layout/nav';
 import Button from '../components/common/button';
 import Card from '../components/common/card';
 import Heading from '../components/common/heading';
+import Body from '../components/common/bodytxt';
 // import { useState, useEffect  } from 'react';
 
 
@@ -46,7 +47,7 @@ const Home = () => {
                 </div>
                 <div className="heroText">
                     <h3>Fighting for Justice.  Protecting Your Rights.</h3>
-                    <p>At our firm, we combine experience, integrity, and strategic advocacy to deliver strong legal representation for individuals, families, and businesses. Your case deserves dedication, precision, and results.</p>
+                    <Body text="At our firm, we are dedicated to providing exceptional legal services with a commitment to justice and client satisfaction. With a team of experienced attorneys, we offer comprehensive legal solutions tailored to meet the unique needs of each client. Whether you are facing a complex legal challenge or seeking guidance on a legal matter, we are here to advocate for your rights and achieve the best possible outcome." />
                     <div className="buttonflex">
                         <Button style1="primary" cta="Contact Us" />
                         <Button style1="secondary" cta="Learn More" />
@@ -65,13 +66,8 @@ const Home = () => {
         <section>
             <div className="aboutFlex">
                 <Heading title="about our firm" />
-            <p>
-                Founded on the principles of integrity, transparency, and justice, our firm provides comprehensive legal services to individuals and businesses.
-
-We believe in clear communication, strategic planning, and aggressive advocacy when necessary. From consultation to resolution, we stand beside our clients every step of the way.
-
-Whether negotiating settlements or litigating in court, we are dedicated to protecting your rights and securing favorable outcomes.
-            </p>
+                <Body text="Founded on the principles of integrity, transparency, and justice, our firm provides comprehensive legal services to individuals and businesses.We believe in clear communication, strategic planning, and aggressive advocacy when necessary. From consultation to resolution, we stand beside our clients every step of the way.
+Whether negotiating settlements or litigating in court, we are dedicated to protecting your rights and securing favorable outcomes." />   
             <Button style1="secondary" cta="Learn More" />
             </div>
         </section>
