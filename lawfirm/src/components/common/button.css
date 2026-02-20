@@ -14,7 +14,7 @@
 .primary{
     background: var(--accent);
     box-shadow: 2px 4px 0 0 var(--accentText);
-    color: var(--bgText);
+    color: var(--bg);
 }
 .secondary{
     border: 1px solid var(--accentText);
