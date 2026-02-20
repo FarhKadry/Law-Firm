@@ -4,6 +4,7 @@
     background: var(--bg, #E9E6D5);
 box-shadow: 8px 10px 15px -3px rgba(0, 0, 0, 0.10), 0 4px 6px -4px rgba(0, 0, 0, 0.10);
 max-width: 260px;
+width: calc(25% - 20px);
 }
 .cardTitle{
     width: 100%;
@@ -35,9 +36,16 @@ max-width: 260px;
     width: 100%;
     box-sizing: border-box;
 }
-@media (max-width: 1000px){
-
+/* TABLET */
+@media (max-width: 900px){
+.cardFlex{
+width: calc(50% - 20px);
 }
-@media (max-width: 600px){
+}
 
+/* PHONE */
+@media (max-width: 600px){
+.cardFlex{
+width: calc(100% - 20px);
+}
 }
