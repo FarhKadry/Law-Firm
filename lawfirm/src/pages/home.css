@@ -106,13 +106,6 @@ h3{
     font-size: 36px;
     font-weight: 400;
 }
-p{
-    color: var(--accentText);
-    font-family: "Red Hat Display";
-    font-size: 24px;
-    font-weight: 400;
-    margin: 20px 0;
-}
 main{
     width: 100%;
     box-sizing: border-box;
@@ -152,6 +145,19 @@ button{
     flex-wrap: wrap;
     backdrop-filter: blur(2px);
     padding: 0 40px;
+}
+.aboutFlex{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 60%;
+}
+.aboutSec{
+    display: flex;
+}
+.aboutSec img{
+    width: 40%;
+    height: auto;
 }
 /* TABLET */
 @media (max-width: 1000px) {
@@ -232,9 +238,6 @@ h1{
     display: flex;
     flex-direction: column;
     width: calc(80% - 30px);
-}
-p{
-    font-size: 20px;
 }
 .cardsContainer{
     flex-wrap: wrap;

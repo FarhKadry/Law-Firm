@@ -1,16 +1,13 @@
 .primary, .secondary{
     display: flex;
     padding: 16px 40px;
-    justify-content: center;
-    align-items: center;
     gap: 7.5px;
     font-family: Cinzel;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     text-transform: lowercase;
     text-wrap: nowrap;
+    max-width: min-content;
 }
 .primary{
     background: var(--accent);

@@ -6,6 +6,7 @@ import cardicon1 from '../assets/cardicon01.svg';
 import cardicon2 from '../assets/cardicon02.svg';
 import cardicon3 from '../assets/cardicon03.svg';
 import cardicon4 from '../assets/cardicon04.svg';
+import abtimg from '../assets/aboutimg.png'
 
 import Navbar from '../components/layout/nav';
 import Button from '../components/common/button';
@@ -64,11 +65,13 @@ const Home = () => {
             </div>
         </section>
         <section>
-            <div className="aboutFlex">
+            <div className="secContainer aboutSec">
+                <div className="aboutFlex">
                 <Heading title="about our firm" />
-                <Body text="Founded on the principles of integrity, transparency, and justice, our firm provides comprehensive legal services to individuals and businesses.We believe in clear communication, strategic planning, and aggressive advocacy when necessary. From consultation to resolution, we stand beside our clients every step of the way.
-Whether negotiating settlements or litigating in court, we are dedicated to protecting your rights and securing favorable outcomes." />   
+                <Body text="Founded on the principles of integrity, transparency, and justice, our firm provides comprehensive legal services to individuals and businesses.We believe in clear communication, strategic planning, and aggressive advocacy when necessary. From consultation to resolution, we stand beside our clients every step of the way. Whether negotiating settlements or litigating in court, we are dedicated to protecting your rights and securing favorable outcomes." />   
             <Button style1="secondary" cta="Learn More" />
+            </div>
+            <img src={abtimg} alt="" />
             </div>
         </section>
     </main>
