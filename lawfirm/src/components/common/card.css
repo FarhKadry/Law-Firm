@@ -1,0 +1,43 @@
+.cardFlex{
+    display: flex;
+    flex-direction: column;
+    background: var(--bg, #E9E6D5);
+box-shadow: 8px 10px 15px -3px rgba(0, 0, 0, 0.10), 0 4px 6px -4px rgba(0, 0, 0, 0.10);
+max-width: 260px;
+}
+.cardTitle{
+    width: 100%;
+    background: var(--accentUnchanged);
+    padding: 20px 20px 0 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    
+}
+.cardFlex img{
+    width: 54px;
+    height: auto;
+}
+.cardFlex h4{
+    color: var(--bg);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    font-family: Cinzel;
+    text-wrap: wrap;
+}
+.cardFlex p{
+    color: var(--accentText);
+    font-family: "Red Hat Display";
+    font-size: 16px;
+    font-weight: 400;
+    padding: 24px;
+    width: 100%;
+    box-sizing: border-box;
+}
+@media (max-width: 1000px){
+
+}
+@media (max-width: 600px){
+
+}
