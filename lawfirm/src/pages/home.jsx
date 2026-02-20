@@ -29,6 +29,12 @@ const Home = () => {
                 </div>
             </div>
         </section>
+
+        <section>
+            <div className="secContainer cardsContainer"> 
+                
+            </div>
+        </section>
     </main>
     </> );
 }
