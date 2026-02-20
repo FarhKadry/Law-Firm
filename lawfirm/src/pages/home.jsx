@@ -12,11 +12,14 @@ const Home = () => {
     </header>
     <main>
         <section>
-            <div className="secContainer">
+            <div className="secContainer heroContainer">
                 <div className="hero">
-                    <h1>Fighting with justice
-— for justice</h1>
-<img className='heroimg' src={heroimg} alt="hero" />
+                    <h1>Fighting<span> with justice</span> — for justice</h1>
+<div className="heroimg"><img src={heroimg} alt="hero" /></div>
+                </div>
+                <div className="heroText">
+                    <h3>Fighting for Justice.  Protecting Your Rights.</h3>
+                    <p>At our firm, we combine experience, integrity, and strategic advocacy to deliver strong legal representation for individuals, families, and businesses. Your case deserves dedication, precision, and results.</p>
                 </div>
             </div>
         </section>
