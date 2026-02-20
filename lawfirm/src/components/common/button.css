@@ -1,15 +1,16 @@
 .primary, .secondary{
     display: flex;
-    padding: 20px 40px;
+    padding: 16px 40px;
     justify-content: center;
     align-items: center;
     gap: 7.5px;
     font-family: Cinzel;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-transform: lowercase;
+    text-wrap: nowrap;
 }
 .primary{
     background: var(--accent);
@@ -18,7 +19,20 @@
 }
 .secondary{
     border: 1px solid var(--accentText);
-    background: var(--bgText);
+    background: var(--bg);
     box-shadow: 2px 4px 0 0 var(--accentText);
     color: var(--accentText);
+}
+.primary:hover, .secondary:hover{
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+    box-shadow: 0 0 0 0 var(--accentText);
+}
+@media (max-width: 600px) {
+
+.primary, .secondary{
+    padding: 12px 20px;
+    font-size: 16px;
+}
+
 }

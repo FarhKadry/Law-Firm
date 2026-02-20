@@ -23,6 +23,8 @@ const Home = () => {
                     <p>At our firm, we combine experience, integrity, and strategic advocacy to deliver strong legal representation for individuals, families, and businesses. Your case deserves dedication, precision, and results.</p>
                     <div className="buttonflex">
                         <Button style1="primary" cta="Contact Us" />
+                        <Button style1="secondary" cta="Learn More" />
+
                     </div>
                 </div>
             </div>
