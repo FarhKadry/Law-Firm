@@ -1,0 +1,24 @@
+.primary, .secondary{
+    display: flex;
+    padding: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 7.5px;
+    font-family: Cinzel;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
+}
+.primary{
+    background: var(--accent);
+    box-shadow: 2px 4px 0 0 var(--accentText);
+    color: var(--bgText);
+}
+.secondary{
+    border: 1px solid var(--accentText);
+    background: var(--bgText);
+    box-shadow: 2px 4px 0 0 var(--accentText);
+    color: var(--accentText);
+}

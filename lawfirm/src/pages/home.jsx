@@ -4,6 +4,7 @@ import './home.css';
 import heroimg from '../assets/heroimg.png';
 
 import Navbar from '../components/layout/nav';
+import Button from '../components/common/button';
 
 const Home = () => {
     return ( <>
@@ -20,6 +21,9 @@ const Home = () => {
                 <div className="heroText">
                     <h3>Fighting for Justice.  Protecting Your Rights.</h3>
                     <p>At our firm, we combine experience, integrity, and strategic advocacy to deliver strong legal representation for individuals, families, and businesses. Your case deserves dedication, precision, and results.</p>
+                    <div className="buttonflex">
+                        <Button style1="primary" cta="Contact Us" />
+                    </div>
                 </div>
             </div>
         </section>
