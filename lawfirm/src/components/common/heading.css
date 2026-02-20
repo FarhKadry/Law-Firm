@@ -1,0 +1,11 @@
+h2{
+    color: var(--accent, #B12825);
+    -webkit-text-stroke-width: 0.57px;
+    -webkit-text-stroke-color: var(--accent, #B12825);
+    font-family: Zaslia;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}

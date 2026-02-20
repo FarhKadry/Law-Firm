@@ -10,11 +10,32 @@ import cardicon4 from '../assets/cardicon04.svg';
 import Navbar from '../components/layout/nav';
 import Button from '../components/common/button';
 import Card from '../components/common/card';
+import Heading from '../components/common/heading';
+// import { useState, useEffect  } from 'react';
+
 
 const Home = () => {
+
+//   const [nightMode, setNightMode] = useState(false);
+
+//   const toggleNightMode = () => {
+//     setNightMode(prev => !prev);
+//   };
+
+//   useEffect(() => {
+//     if (nightMode) {
+//       document.body.classList.add('nightmode');
+//     } else {
+//       document.body.classList.remove('nightmode');
+//     }
+//   }, [nightMode]);
+    
     return ( <>
     <header>
         <Navbar />
+         {/* <button onClick={toggleNightMode}>
+          {nightMode ? "Light Mode" : "Night Mode"}
+        </button> */}
     </header>
     <main>
         <section>
@@ -29,7 +50,6 @@ const Home = () => {
                     <div className="buttonflex">
                         <Button style1="primary" cta="Contact Us" />
                         <Button style1="secondary" cta="Learn More" />
-
                     </div>
                 </div>
             </div>
@@ -40,6 +60,19 @@ const Home = () => {
                 <Card title="Criminal Law" desc="Defending your rights with unwavering commitment. Our experienced criminal defense team provides strategic representation for a wide range of cases, ensuring you receive a fair trial and the best possible outcome." img={cardicon2} />
                 <Card title="Corporate Law" desc="Guiding your business to success with expert legal counsel. Our corporate law services cover everything from formation and compliance to mergers and acquisitions, helping your company thrive in a complex legal landscape." img={cardicon3} />  
                 <Card title="Real Estate Law" desc="Navigating the complexities of real estate law with expertise and precision. Our team provides comprehensive legal support for property transactions, disputes, and regulatory compliance, ensuring your real estate interests are protected." img={cardicon4} />  
+            </div>
+        </section>
+        <section>
+            <div className="aboutFlex">
+                <Heading title="about our firm" />
+            <p>
+                Founded on the principles of integrity, transparency, and justice, our firm provides comprehensive legal services to individuals and businesses.
+
+We believe in clear communication, strategic planning, and aggressive advocacy when necessary. From consultation to resolution, we stand beside our clients every step of the way.
+
+Whether negotiating settlements or litigating in court, we are dedicated to protecting your rights and securing favorable outcomes.
+            </p>
+            <Button style1="secondary" cta="Learn More" />
             </div>
         </section>
     </main>

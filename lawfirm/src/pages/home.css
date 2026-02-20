@@ -104,13 +104,14 @@ h3{
     -webkit-text-stroke-color: var(--accent);
     font-family: Zaslia;
     font-size: 36px;
+    font-weight: 400;
 }
 p{
     color: var(--accentText);
     font-family: "Red Hat Display";
     font-size: 24px;
     font-weight: 400;
-    margin-top: 20pxgit;
+    margin-top: 20px;
 }
 main{
     width: 100%;
@@ -149,8 +150,8 @@ button{
     z-index: 2;
     margin: 0 auto;
     flex-wrap: wrap;
-    /* background: var(--bg); */
-        padding: 0 40px;
+    backdrop-filter: blur(2px);
+    padding: 0 40px;
 }
 /* TABLET */
 @media (max-width: 1000px) {
