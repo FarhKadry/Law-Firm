@@ -124,7 +124,11 @@ const Home = () => {
     <div className="col2">
         <h3>Follow us</h3>
         <ul>
-            <Item2 />
+            <Item2 name="Twitter"  link="#"/>
+            <Item2 name="Facebook"  link="#"/>
+            <Item2 name="Instagram"  link="#"/>
+            <Item2 name="LinkedIn"  link="#"/>
+
         </ul>
     </div>
 </footer>

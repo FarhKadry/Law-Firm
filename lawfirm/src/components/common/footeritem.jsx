@@ -7,7 +7,7 @@ const Item2 = (props) => {
         <>
         <li>
             <img src={arrow} alt="" />
-                <a href="#">
+                <a href={props.link}>
                 {props.name}
                 </a>
             </li>

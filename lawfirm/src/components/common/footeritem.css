@@ -1,0 +1,15 @@
+li{
+    font-size: 18px;
+    color: var(--accentText);
+    display: flex;
+    gap: 4px;
+    font-weight: 600;
+}
+li img{
+    width: 22px;
+    transform: rotate(-90deg);
+}
+li:hover{
+    opacity: 0.8;
+    gap: 10px;
+}
