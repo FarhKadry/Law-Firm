@@ -107,15 +107,18 @@ const Home = () => {
                         <img src={contact} alt="" />
                         <h3>Reach out to us</h3>
                         <div class="form1">
-                            <Input type="name" placeholder="Insert your Name here" />
-                            <Input type="email" placeholder="Insert your Email here" />
+                            <Input type="name" placeholder="Name" state="inactive first" />
+                            <Input type="email" placeholder="Email" state="inactive first" />
                 </div>
-                            <Input class="form2" type="text" placeholder="Insert your Message here" />
+                            <Input class="form2" type="text" placeholder="Message" state="active first" />
                     </div>
                 </div>
             </div>
         </section>
     </main>
+    <footer>
+
+    </footer>
     </> );
 }
  

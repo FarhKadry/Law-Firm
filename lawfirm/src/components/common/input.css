@@ -7,6 +7,15 @@ input{
     width: 100%;
     font-family: "Red Hat Display";
 }
+.first{
+    background: none;
+}
+.inactive{
+    display: none;
+}
+.active{
+    display: block;
+}
 @media (max-width: 600px){
 input{
     font-size: 16px;
