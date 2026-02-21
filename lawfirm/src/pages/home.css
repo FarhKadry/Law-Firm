@@ -4,13 +4,16 @@
     --accentText:#8E3635;
     --bgText: #FFFFFF;
     --accentUnchanged: #B12825;
+    --bgUnchanged: #E9E6D5;
+
 }
 .nightmode{
-    --bg: #8E3635;
+    --bg: #8f2927;
     --accent:#E9E6D5;
     --accentText:#FFFFFF;
     --bgText: #B12825;
     --accentUnchanged: #B12825;
+    --bgUnchanged: #E9E6D5;
 
 }
 @font-face {

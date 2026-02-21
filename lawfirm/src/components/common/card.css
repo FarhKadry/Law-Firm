@@ -1,7 +1,7 @@
 .cardFlex{
     display: flex;
     flex-direction: column;
-    background: var(--bg, #E9E6D5);
+    background: var(--bgUnchanged);
 box-shadow: 8px 10px 15px -3px rgba(0, 0, 0, 0.10), 0 4px 6px -4px rgba(0, 0, 0, 0.10);
 max-width: 260px;
 width: calc(25% - 20px);
@@ -16,19 +16,21 @@ width: calc(25% - 20px);
     
 }
 .cardFlex img{
-    width: 54px;
+    width: 52px;
     height: auto;
+    position: relative;
+    bottom: 7px;
 }
 .cardFlex h4{
-    color: var(--bg);
-    font-size: 16px;
+    color: var(--bgUnchanged);
+    font-size: 18px;
     font-weight: 700;
     line-height: 28px;
     font-family: Cinzel;
     text-wrap: wrap;
 }
 .cardFlex p{
-    color: var(--accentText);
+    color: var(--accentUnchanged);
     font-family: "Red Hat Display";
     font-size: 16px;
     font-weight: 400;
