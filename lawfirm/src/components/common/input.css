@@ -1,0 +1,14 @@
+input{
+    background: beige;
+    font-size: 18px;
+    padding: 20px 40px;
+    outline: none;
+    border: transparent;
+    width: 100%;
+    font-family: "Red Hat Display";
+}
+@media (max-width: 600px){
+input{
+    font-size: 16px;
+}
+}

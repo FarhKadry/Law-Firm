@@ -12,7 +12,7 @@ import att2 from '../assets/att02.jpg'
 import att3 from '../assets/att03.jpg'
 import att4 from '../assets/att04.jpg'
 import att5 from '../assets/att05.jpg'
-
+import contact from '../assets/contact.jpg'
 
 
 import Navbar from '../components/layout/nav';
@@ -24,6 +24,7 @@ import Question from '../components/common/faq';
 import Theme from '../components/common/theme';
 import Head from '../components/layout/secheading';
 import Card2 from '../components/common/card2';
+import Input from '../components/common/input';
 
 
 const Home = () => {
@@ -103,11 +104,13 @@ const Home = () => {
                 <div className='contact' >
                     <h1><span>Our team is ready to assist you.</span></h1>
                     <div className="contactFlex">
+                        <img src={contact} alt="" />
+                        <h3>Reach out to us</h3>
                         <div class="form1">
-                    <input type="name" placeholder="Insert your name here"  />
-                    <input type="email" placeholder="Insert your Email here"  />
+                            <Input type="name" placeholder="Insert your Name here" />
+                            <Input type="email" placeholder="Insert your Email here" />
                 </div>
-                <input class="form2" type="text" placeholder="Insert your Message here"  />
+                            <Input class="form2" type="text" placeholder="Insert your Message here" />
                     </div>
                 </div>
             </div>

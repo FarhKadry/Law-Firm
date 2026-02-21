@@ -37,6 +37,8 @@
     box-sizing: border-box;
     transition: all 200ms ease-in-out;
     float: left;
+    max-width: 100vw;
+
 }
 body{
     background-color: var(--bg);
@@ -188,8 +190,11 @@ button{
     display: flex;
     flex-direction: column;
     width: 100%;
-    gap: 0;
 }
+.contactFlex{
+    gap: 20px;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 8px;
@@ -204,20 +209,7 @@ button{
 ::-webkit-scrollbar-thumb {
   background: var(--accent); 
 }
-.contact{
-    display: flex;
-    width: 100%;
-    gap: 10px;
-    background: var(--accent);
-    border-radius: 16px;
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.10), 0 8px 10px -6px rgba(0, 0, 0, 0.10);
-    padding: 34px;
-}
-.contact h1 {
-    color: var(--bg);
-    width: 25%;
-        max-width: unset;
-}
+
 .wrapper{
     max-width: 100vw;
     width: 100%;
@@ -225,11 +217,36 @@ button{
 }
 .attFlex{
     display: inline-flex; 
-align-items: flex-start;
+    align-items: flex-start;
+    max-width: unset;
+}
+.contact{
+    display: flex;
+    width: 100%;
+    max-width: 100vw;
+
+    gap: 60px;
+    background: var(--accent);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.10), 0 8px 10px -6px rgba(0, 0, 0, 0.10);
+    padding: 34px;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact h1 {
+    color: var(--bg);
+    width: 25%;
+    max-width: unset;
 }
 .contactFlex{
     display: flex;
     flex-direction: column;
+    width: 67%;
+    padding: 15px;
+    background: var(--bg);
+}
+.form1{
+    display: flex;
+    gap: 20px;
 }
 /* MID */
 @media (max-width: 1150px){
@@ -262,7 +279,22 @@ align-items: flex-start;
     width: 100%;
     justify-content: space-between;
 }
-
+.contact{
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    align-items: flex-start;
+}
+.contactFlex{
+    width: 80%;
+}
+.contact h1 {
+    width: 100%;
+    max-width: 389px;
+}
+.form1{
+    flex-direction: column;
+}
 section {
     padding: 100px 42px 0 42px;
     width: 100%;
@@ -298,6 +330,10 @@ section {
 @media (0px <= width <= 600px) {
     .cardsContainer{
         padding: 0;
+}
+.contact{
+    width: 100%;
+    max-width: 100vw;
 }
 .heroimg {
         width: 50%;
@@ -344,6 +380,8 @@ h1{
 }
 .aboutFlex {
     width: 100%;
+    max-width: 100vw;
+
 }
 
 }
