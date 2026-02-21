@@ -1,7 +1,7 @@
 import React from 'react';
 import './home.css';
 
-import heroimg from '../assets/heroimg.png';
+import heroimg from '../assets/heroimg2.png';
 import cardicon1 from '../assets/cardicon01.svg';
 import cardicon2 from '../assets/cardicon02.svg';
 import cardicon3 from '../assets/cardicon03.svg';
@@ -72,6 +72,17 @@ const Home = () => {
             <Button style1="secondary" cta="Learn More" />
             </div>
             <img src={abtimg} alt="" />
+            </div>
+        </section>
+        <section>
+            <div className="secContainer faq">
+                <div className="faqHeading">
+                    <Heading title="Frequently asked questIons" />
+                    <div>
+                        <Body text="We believe in clear communication, strategic planning, and aggressive advocacy when necessary. From consultation to resolution, we stand beside our clients every step of the way." />
+                        <Button style1="secondary" cta="find us" />
+                    </div>
+                </div>
             </div>
         </section>
     </main>
