@@ -1,0 +1,44 @@
+.questFlex{
+    display: flex;
+    width: 100%;
+    padding: 40px 70px;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--accent2Unchanged);
+    background: #F2F0E7;
+}
+.qsNo{
+    color: var(--accent2Unchanged);
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: var(--accent2Unchanged);
+    font-family: Zaslia;
+    font-size: 72px;
+    font-weight: 400;
+    width: 96px;
+    flex-shrink: 0;
+}
+.qsFlex{
+    display: flex;
+    width: 50%;
+    max-width: 645px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    flex-direction: column;
+}
+.qsFlex div{
+    display: flex;
+    align-items: center;
+}
+.answer{
+    width: 100%;
+    height: auto;
+    opacity: 1;
+}
+h5{
+    color: var(--accent2Unchanged);
+    font-family: Cinzel;
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+}

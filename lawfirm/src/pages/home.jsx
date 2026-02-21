@@ -13,6 +13,7 @@ import Button from '../components/common/button';
 import Card from '../components/common/card';
 import Heading from '../components/common/heading';
 import Body from '../components/common/bodytxt';
+import Question from '../components/common/faq';
 // import { useState, useEffect  } from 'react';
 
 
@@ -74,7 +75,7 @@ const Home = () => {
             <img src={abtimg} alt="" />
             </div>
         </section>
-        <section>
+        <section className='faqSec'>
             <div className="secContainer faq">
                 <div className="faqHeading">
                     <Heading title="Frequently asked questIons" />
@@ -84,6 +85,9 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <div className="faqCardFlex">
+                    <Question number="I" question="Where can i recieve my products?" answer="We believe in clear communication, strategic planning" />
+                </div>
         </section>
     </main>
     </> );
