@@ -54,7 +54,7 @@
 h5{
     color: var(--accent2Unchanged);
     font-family: Cinzel;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 900;
     text-transform: uppercase;
 }
@@ -81,9 +81,10 @@ h5{
 .questFlex{
     padding: 40px 32px;
     justify-content: space-between;
+            align-items: end;
 }
 h5{
-    font-size: 20px;
+    font-size: 18px;
 }
 .qsFlex {
     width: 80%;

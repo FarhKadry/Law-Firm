@@ -72,7 +72,9 @@ const Home = () => {
                 </div>
             </div>
             <div className="faqCardFlex">
-                    <Question number="I" question="Where can i recieve my products?" answer="We believe in clear communication, strategic planning cvv" />
+                    <Question number="I" question="Where is your firm located?" answer="Our office is centrally located and available for in-person consultations by appointment. We also offer virtual consultations for your convenience." />
+                    <Question number="II" question="How do I schedule a consultation?" answer="Our office is centrally located and available for in-person consultations by appointment. We also offer virtual consultations for your convenience." />
+                    <Question number="IIV" question="What should I bring to my first meeting?" answer="Our office is centrally located and available for in-person consultations by appointment. We also offer virtual consultations for your convenience." />
                 </div>
         </section>
     </main>
