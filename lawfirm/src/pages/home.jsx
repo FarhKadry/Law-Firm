@@ -121,6 +121,16 @@ const Home = () => {
         <Heading title="BIU & CO"/>
             <Body text="We believe in clear communication, strategic planning, and aggressive advocacy when necessary. From consultation to resolution, we stand beside our clients every step of the way." />        
     </div>
+    <div className="col2">
+        <h3>Follow us</h3>
+        <ul>
+            <li>
+                <a href="#">
+                Twitter
+                </a>
+            </li>
+        </ul>
+    </div>
 </footer>
     </> );
 }
