@@ -25,6 +25,7 @@ import Theme from '../components/common/theme';
 import Head from '../components/layout/secheading';
 import Card2 from '../components/common/card2';
 import Input from '../components/common/input';
+import Item2 from '../components/common/footeritem';
 
 
 const Home = () => {
@@ -33,11 +34,10 @@ const Home = () => {
     return ( <>
     <header>
         <Navbar />
-
         <Theme />
     </header>
     <main>
-        <section>
+        <section className='heroSec'>
             <div className="secContainer heroContainer">
                 <div className="hero">
                     <h1>Fighting<span> with justice</span> — for justice</h1>
@@ -124,11 +124,7 @@ const Home = () => {
     <div className="col2">
         <h3>Follow us</h3>
         <ul>
-            <li>
-                <a href="#">
-                Twitter
-                </a>
-            </li>
+            <Item2 />
         </ul>
     </div>
 </footer>
