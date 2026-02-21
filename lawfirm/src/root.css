@@ -1,0 +1,21 @@
+:root{
+    --bg: #E9E6D5;
+    --accent:#B12825;
+    --accentText:#8E3635;
+    --bgText: #F2F0E7;
+    --accentUnchanged: #B12825;
+    --accent2Unchanged: #8E3635;
+    --bgUnchanged: #E9E6D5;
+    --bg2Unchanged: #F2F0E7;
+
+}
+[data-theme="dark"] {
+    --bg: #8f2927;
+    --accent:#E9E6D5;
+    --accentText:#F2F0E7;
+    --bgText: #B12825;
+    --accentUnchanged: #B12825;
+    --accent2Unchanged: #8E3635;
+    --bgUnchanged: #E9E6D5;
+    --bg2Unchanged: #F2F0E7
+}
