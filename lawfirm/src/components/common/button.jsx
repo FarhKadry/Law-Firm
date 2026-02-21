@@ -3,9 +3,11 @@ import './button.css';
 
 const Button = (props) => {
     return ( <>
-    <button className={props.style1}>
+    <a href={props.link}>
+        <button className={props.style1}>
         {props.cta}
     </button>
+    </a>
     </> );
 }
 

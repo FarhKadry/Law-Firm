@@ -37,7 +37,7 @@ const Home = () => {
         <Theme />
     </header>
     <main>
-        <section className='heroSec'>
+        <section id='hero' className='heroSec'>
             <div className="secContainer heroContainer">
                 <div className="hero">
                     <h1>Fighting<span> with justice</span> — for justice</h1>
@@ -120,6 +120,8 @@ const Home = () => {
     <div className="col1">
         <Heading title="BIU & CO"/>
             <Body text="We believe in clear communication, strategic planning, and aggressive advocacy when necessary. From consultation to resolution, we stand beside our clients every step of the way." />        
+        <Button style1="primary" cta="scroll to top" link="#hero"/>
+    
     </div>
     <div className="col2">
         <h3>Follow us</h3>
@@ -128,7 +130,6 @@ const Home = () => {
             <Item2 name="Facebook"  link="#"/>
             <Item2 name="Instagram"  link="#"/>
             <Item2 name="LinkedIn"  link="#"/>
-
         </ul>
     </div>
 </footer>
