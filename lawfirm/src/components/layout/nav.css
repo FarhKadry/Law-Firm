@@ -6,4 +6,9 @@ nav{
     width: 100%;
     text-wrap: nowrap;
 }
+@media (0px <= width <= 600px) {
+    nav{
+    display: none;
+}
+}
 
