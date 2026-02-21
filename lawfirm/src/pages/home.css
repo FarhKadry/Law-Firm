@@ -47,10 +47,11 @@ header{
     display: flex;
     justify-content: space-between;
     display: inline-flex;
-    padding: 20px 82px;
+    padding: 20px 72px;
     align-items: center;
     width: 100%;
-    max-width:560px ;
+    justify-content: space-between;
+    max-width:580px ;
     right: 0;
     top: 0;
     background-color: var(--accent);
@@ -186,6 +187,31 @@ button{
     flex-direction: column;
     width: 100%;
     gap: 0;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background:var(--bg);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--accent); 
+}
+
+.wrapper{
+    max-width: 100vw;
+    width: 100%;
+    overflow: scroll;
+}
+.attFlex{
+    display: inline-flex;
+align-items: flex-start;
+gap: 10px;
 }
 /* MID */
 @media (max-width: 1150px){

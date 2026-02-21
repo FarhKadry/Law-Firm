@@ -5,6 +5,7 @@ nav{
     justify-content: space-between;
     width: 100%;
     text-wrap: nowrap;
+    margin: 0 5px;
 }
 @media (0px <= width <= 600px) {
     nav{

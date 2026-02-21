@@ -7,6 +7,11 @@ import cardicon2 from '../assets/cardicon02.svg';
 import cardicon3 from '../assets/cardicon03.svg';
 import cardicon4 from '../assets/cardicon04.svg';
 import abtimg from '../assets/aboutimg.png'
+import att1 from '../assets/att01.jpg'
+import att2 from '../assets/att02.jpg'
+import att3 from '../assets/att03.jpg'
+import att4 from '../assets/att04.jpg'
+
 
 import Navbar from '../components/layout/nav';
 import Button from '../components/common/button';
@@ -14,9 +19,9 @@ import Card from '../components/common/card';
 import Heading from '../components/common/heading';
 import Body from '../components/common/bodytxt';
 import Question from '../components/common/faq';
-import { useState } from 'react';
 import Theme from '../components/common/theme';
 import Head from '../components/layout/secheading';
+import Card2 from '../components/common/card2';
 
 
 const Home = () => {
@@ -63,6 +68,7 @@ const Home = () => {
             <img src={abtimg} alt="" />
             </div>
         </section>
+        {/* 4 */}
         <section className='faqSec'>
             <div className=" faq">
                 <div>
@@ -74,6 +80,20 @@ const Home = () => {
                     <Question number="II" question="How do I schedule a consultation?" answer="Our office is centrally located and available for in-person consultations by appointment. We also offer virtual consultations for your convenience." />
                     <Question number="IIV" question="What should I bring to my first meeting?" answer="Our office is centrally located and available for in-person consultations by appointment. We also offer virtual consultations for your convenience." />
             </div>
+        </section>
+        {/* 5 */}
+        <section className='faqSec'>
+                <Head  title="Meet our Top rated ATTORNEYS" text="Our legal team is composed of seasoned litigators and advisors who bring decades of courtroom experience and negotiation expertise to every case.We are committed to protecting your interests, upholding justice, and delivering practical legal solutions tailored to your unique situation." cta="View All Attorneys"/>
+            
+        <div className="wrapper">
+            <div className="attFlex">
+                <Card2 img={att1} name="Matt Murdock" title="full time"/>
+                <Card2 img={att1} name="Matt Murdock" title="full time"/>
+                <Card2 img={att1} name="Matt Murdock" title="full time"/>
+                <Card2 img={att1} name="Matt Murdock" title="full time"/>
+
+            </div>
+        </div>
         </section>
         <section>
         </section>

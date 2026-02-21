@@ -76,7 +76,8 @@ h5{
 
     .qsNo{
     font-size: 52px;
-    width: 50px;
+    width: 68px
+    
 }
 .questFlex{
     padding: 40px 32px;
@@ -92,4 +93,9 @@ h5{
 .qsFlex img {
     width: 52px;
 }
+}
+@media (max-width: 400px){
+    .questFlex{
+        flex-direction: column;
+    }
 }

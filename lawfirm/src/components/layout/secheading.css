@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     gap: 20px;
-    padding: 100px 72px 50px 72px;
+    padding: 100px 72px 20px 72px;
     justify-content: space-between;
     width: 100%;
 }
@@ -23,6 +23,6 @@
 .secHeading{
     flex-direction: column;
     width: 100%;
-    padding: 100px 32px 50px 32px;
+    padding: 100px 32px 20px 32px;
 }
 }

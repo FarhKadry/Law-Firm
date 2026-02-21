@@ -12,12 +12,15 @@ function Theme() {
 
   return (
     <>
-      <button className="themeBtn" onClick={() => setTheme("light")}>
+    <div className="themeFlex">
+    <button className="themeBtn" onClick={() => setTheme("light")}>
         <img src={light} alt="" />
       </button>
       <button className="themeBtn" onClick={() => setTheme("dark")}>
         <img src={dark} alt="" />
       </button>
+    </div>
+      
     </>
   );
 }
