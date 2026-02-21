@@ -117,6 +117,10 @@ h3{
 main{
     width: 100%;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 section{
     padding: 100px 82px 0 82px;
@@ -170,6 +174,9 @@ button{
     height: auto;
     max-width: 389px;
 }
+.faq{
+    margin: 0;
+}
 .faqSec{
     padding: 0;
     width: 100%;
@@ -181,7 +188,7 @@ button{
     display: flex;
     flex-direction: row;
     gap: 20px;
-    padding: 100px 42px 50px 42px;
+    padding: 100px 72px 50px 72px;
 }
 .faqHeading h2{
     max-width: 700px;
@@ -303,10 +310,11 @@ h1{
     margin-top: 20px;
 }
 .aboutFlex {
-    width: 80%;
+    width: 100%;
 }
 .faqHeading{
     flex-direction: column;
-    width: 80%;
+    width: 100%;
+   padding: 100px 32px 50px 32px;
 }
 }

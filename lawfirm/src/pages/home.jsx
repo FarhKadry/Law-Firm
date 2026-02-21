@@ -14,31 +14,17 @@ import Card from '../components/common/card';
 import Heading from '../components/common/heading';
 import Body from '../components/common/bodytxt';
 import Question from '../components/common/faq';
-// import { useState, useEffect  } from 'react';
+import { useState } from 'react';
 
 
 const Home = () => {
 
-//   const [nightMode, setNightMode] = useState(false);
 
-//   const toggleNightMode = () => {
-//     setNightMode(prev => !prev);
-//   };
-
-//   useEffect(() => {
-//     if (nightMode) {
-//       document.body.classList.add('nightmode');
-//     } else {
-//       document.body.classList.remove('nightmode');
-//     }
-//   }, [nightMode]);
-    
     return ( <>
     <header>
         <Navbar />
-         {/* <button onClick={toggleNightMode}>
-          {nightMode ? "Light Mode" : "Night Mode"}
-        </button> */}
+         <button>
+        </button>
     </header>
     <main>
         <section>
@@ -86,7 +72,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="faqCardFlex">
-                    <Question number="I" question="Where can i recieve my products?" answer="We believe in clear communication, strategic planning" />
+                    <Question number="I" question="Where can i recieve my products?" answer="We believe in clear communication, strategic planning cvv" />
                 </div>
         </section>
     </main>
