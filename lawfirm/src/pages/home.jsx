@@ -16,6 +16,7 @@ import Body from '../components/common/bodytxt';
 import Question from '../components/common/faq';
 import { useState } from 'react';
 import Theme from '../components/common/theme';
+import Head from '../components/layout/secheading';
 
 
 const Home = () => {
@@ -63,20 +64,18 @@ const Home = () => {
             </div>
         </section>
         <section className='faqSec'>
-            <div className="secContainer faq">
-                <div className="faqHeading">
-                    <Heading title="Frequently asked questIons" />
-                    <div>
-                        <Body text="We believe in clear communication, strategic planning, and aggressive advocacy when necessary. From consultation to resolution, we stand beside our clients every step of the way." />
-                        <Button style1="secondary" cta="find us" />
-                    </div>
+            <div className=" faq">
+                <div>
+                <Head  title="Frequently asked questIons" text="We believe in clear communication, strategic planning, and aggressive advocacy when necessary. From consultation to resolution, we stand beside our clients every step of the way." cta="find us"/>
                 </div>
             </div>
             <div className="faqCardFlex">
                     <Question number="I" question="Where is your firm located?" answer="Our office is centrally located and available for in-person consultations by appointment. We also offer virtual consultations for your convenience." />
                     <Question number="II" question="How do I schedule a consultation?" answer="Our office is centrally located and available for in-person consultations by appointment. We also offer virtual consultations for your convenience." />
                     <Question number="IIV" question="What should I bring to my first meeting?" answer="Our office is centrally located and available for in-person consultations by appointment. We also offer virtual consultations for your convenience." />
-                </div>
+            </div>
+        </section>
+        <section>
         </section>
     </main>
     </> );

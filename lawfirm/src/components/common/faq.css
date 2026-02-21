@@ -81,7 +81,7 @@ h5{
 .questFlex{
     padding: 40px 32px;
     justify-content: space-between;
-            align-items: end;
+    align-items: start;
 }
 h5{
     font-size: 18px;

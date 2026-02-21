@@ -1,0 +1,28 @@
+.secHeading{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 100px 72px 50px 72px;
+    justify-content: space-between;
+    width: 100%;
+}
+.secHeading h2{
+    max-width: 700px;
+}
+.secHeading div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    max-width: 455px;
+}
+.secHeading p{
+    text-align: right;
+}
+@media (0px <= width <= 600px){
+.secHeading{
+    flex-direction: column;
+    width: 100%;
+    padding: 100px 32px 50px 32px;
+}
+}

@@ -181,25 +181,6 @@ button{
     flex-direction: column;
     justify-content: center;
 }
-.faqHeading{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    padding: 100px 72px 50px 72px;
-}
-.faqHeading h2{
-    max-width: 700px;
-}
-.faqHeading div{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 10px;
-    max-width: 455px;
-}
-.faqHeading p{
-    text-align: right;
-}
 .faqCardFlex{
     display: flex;
     flex-direction: column;
@@ -320,9 +301,5 @@ h1{
 .aboutFlex {
     width: 100%;
 }
-.faqHeading{
-    flex-direction: column;
-    width: 100%;
-   padding: 100px 32px 50px 32px;
-}
+
 }

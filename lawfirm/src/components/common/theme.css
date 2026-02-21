@@ -5,6 +5,7 @@
     align-items: center;
     gap: 10px;
     display: flex;
+    justify-content: center;
     border-radius: 58px;
     margin-left: 10px;
 }
