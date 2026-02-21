@@ -15,6 +15,7 @@ import Heading from '../components/common/heading';
 import Body from '../components/common/bodytxt';
 import Question from '../components/common/faq';
 import { useState } from 'react';
+import Theme from '../components/common/theme';
 
 
 const Home = () => {
@@ -23,8 +24,8 @@ const Home = () => {
     return ( <>
     <header>
         <Navbar />
-         <button>
-        </button>
+
+        <Theme />
     </header>
     <main>
         <section>
