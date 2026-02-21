@@ -1,0 +1,18 @@
+.themeBtn{
+    background-color: var(--accentUnchanged);
+    display: flex;
+    padding: 3px 6px;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+    border-radius: 58px;
+    margin-left: 10px;
+}
+
+.themeBtn img{
+    width: 20px;
+    height: auto;
+}
+.themeBtn:hover{
+    background: var(--accent2Unchanged);
+}

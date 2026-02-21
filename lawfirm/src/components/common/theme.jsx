@@ -2,6 +2,7 @@ import React from "react";
 import './../../root.css'
 import dark from '../../assets/moon.svg'
 import light from '../../assets/sun.svg'
+import './theme.css'
 
 
 function Theme() {
@@ -20,5 +21,5 @@ function Theme() {
     </>
   );
 }
- 
+
 export default Theme;
