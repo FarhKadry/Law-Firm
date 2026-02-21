@@ -8,7 +8,7 @@ const Input = (props) => {
 
   function validateForm() {
     if (value === "") {
-      alert("Recheck you values");
+      alert("Please recheck you inputs");
       return false;
     }
     return true;
