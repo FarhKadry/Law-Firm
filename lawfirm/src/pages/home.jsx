@@ -53,7 +53,7 @@ const Home = () => {
                 </div>
             </div>
         </section>
-        <section>
+        <section >
             <div className="secContainer cardsContainer"> 
                 <Card title="Family Law" desc="Navigating the complexities of family law with compassion and expertise. Our dedicated team provides comprehensive legal support for divorce, child custody, adoption, and more, ensuring your family's best interests are protected." img={cardicon1} />
                 <Card title="Criminal Law" desc="Defending your rights with unwavering commitment. Our experienced criminal defense team provides strategic representation for a wide range of cases, ensuring you receive a fair trial and the best possible outcome." img={cardicon2} />
@@ -61,7 +61,7 @@ const Home = () => {
                 <Card title="Real Estate Law" desc="Navigating the complexities of real estate law with expertise and precision. Our team provides comprehensive legal support for property transactions, disputes, and regulatory compliance, ensuring your real estate interests are protected." img={cardicon4} />  
             </div>
         </section>
-        <section>
+        <section id='about'>
             <div className="secContainer aboutSec">
                 <div className="aboutFlex">
                 <Heading title="about our firm" />
@@ -72,7 +72,7 @@ const Home = () => {
             </div>
         </section>
         {/* 4 */}
-        <section className='faqSec'>
+        <section id='FAQ' className='faqSec'>
             <div className=" faq">
                 <div>
                 <Head  title="Frequently asked questIons" text="We believe in clear communication, strategic planning, and aggressive advocacy when necessary. From consultation to resolution, we stand beside our clients every step of the way." cta="find us"/>
@@ -85,7 +85,7 @@ const Home = () => {
             </div>
         </section>
         {/* 5 */}
-        <section className='faqSec'>
+        <section id='attorneys' className='faqSec'>
                 <Head  title="Meet our Top rated ATTORNEYS" text="Our legal team is composed of seasoned litigators and advisors who bring decades of courtroom experience and negotiation expertise to every case.We are committed to protecting your interests, upholding justice, and delivering practical legal solutions tailored to your unique situation." cta="View All Attorneys"/>
             
         <div className="wrapper">
@@ -99,7 +99,7 @@ const Home = () => {
         </div>
         </section>
         {/* 6 */}
-        <section>
+        <section id='contact'>
             <div className="secContainer">
                 <div className='contact' >
                     <h1><span>Our team is ready to assist you.</span></h1>

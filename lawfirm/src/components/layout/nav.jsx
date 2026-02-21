@@ -5,10 +5,10 @@ import HeadItem from '../common/headeritem';
 const Navbar = () => {
     return ( <>
     <nav>
-        <HeadItem path="/home" name="Home" />
-        <HeadItem path="/about" name="About Us" />
-        <HeadItem path="/services" name="Services" />
-        <HeadItem path="/contact" name="Contact Us" />
+        <HeadItem  name="About Us" link="#about" />
+        <HeadItem name="FAQ" link="#FAQ" />
+        <HeadItem  name="Attorneys" link="#attorneys" />
+        <HeadItem  name="Contact Us" link="#contact" />
     </nav>
     </> );
 }

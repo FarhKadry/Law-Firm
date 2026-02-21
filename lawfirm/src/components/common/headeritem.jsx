@@ -4,7 +4,7 @@ import './headeritem.css';
 const HeadItem = (props) => {
     return ( <>
     <li className='item'>
-        <a href={props.path}>{props.name}</a>
+        <a href={props.link}>{props.name}</a>
     </li>
     </> );
 }
