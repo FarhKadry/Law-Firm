@@ -97,7 +97,20 @@ const Home = () => {
             </div>
         </div>
         </section>
+        {/* 6 */}
         <section>
+            <div className="secContainer">
+                <div className='contact' >
+                    <h1><span>Our team is ready to assist you.</span></h1>
+                    <div className="contactFlex">
+                        <div class="form1">
+                    <input type="name" placeholder="Insert your name here"  />
+                    <input type="email" placeholder="Insert your Email here"  />
+                </div>
+                <input class="form2" type="text" placeholder="Insert your Message here"  />
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     </> );
