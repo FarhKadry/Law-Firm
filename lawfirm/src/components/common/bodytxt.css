@@ -8,11 +8,15 @@ p{
 @media (1000px <= width <= 601px) {
 p{
     font-size: 18px;
+    margin: 20px 0;
+
 }
 }
 
 @media (0px <= width <= 600px) {
 p{
-    font-size: 20px;
+    font-size: 16px;
+    margin: 12px 0;
+
 }
 }
