@@ -209,9 +209,8 @@ button{
     overflow: scroll;
 }
 .attFlex{
-    display: inline-flex;
+    display: inline-flex; 
 align-items: flex-start;
-gap: 10px;
 }
 /* MID */
 @media (max-width: 1150px){

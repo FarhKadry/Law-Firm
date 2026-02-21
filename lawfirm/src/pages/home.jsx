@@ -11,6 +11,8 @@ import att1 from '../assets/att01.jpg'
 import att2 from '../assets/att02.jpg'
 import att3 from '../assets/att03.jpg'
 import att4 from '../assets/att04.jpg'
+import att5 from '../assets/att05.jpg'
+
 
 
 import Navbar from '../components/layout/nav';
@@ -87,11 +89,11 @@ const Home = () => {
             
         <div className="wrapper">
             <div className="attFlex">
-                <Card2 img={att1} name="Matt Murdock" title="full time"/>
-                <Card2 img={att1} name="Matt Murdock" title="full time"/>
-                <Card2 img={att1} name="Matt Murdock" title="full time"/>
-                <Card2 img={att1} name="Matt Murdock" title="full time"/>
-
+                <Card2 img={att3} name="Ben Uric" title="Criminal Law"/>
+                <Card2 img={att5} name="Nadeem Hamada" title="State Law"/>
+                <Card2 img={att2} name="Karen Paige" title="Family Law"/>
+                <Card2 img={att1} name="Foggy Nelson " title="State Law"/>
+                <Card2 img={att4} name="Matt Murdock" title="Criminal Law"/>
             </div>
         </div>
         </section>
